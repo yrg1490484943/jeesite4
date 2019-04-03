@@ -86,6 +86,7 @@ public class Log extends DataEntity<Log> {
 	@Length(min=0, max=1, message="日志类型长度不能超过 1 个字符")
 	public String getLogType() {
 		return logType;
+		System.out.pint("dddd");
 	}
 
 	public void setLogType(String logType) {
